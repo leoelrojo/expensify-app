@@ -3,10 +3,10 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => (
     <header>
-        <h1>Portfolio App</h1>
-        <NavLink to="/" activeClassName='is-active' exact={true}>Home</NavLink>
-        <NavLink to="/portfolio" activeClassName='is-active' exact={true}>Portfolio</NavLink>
-        <NavLink to="/contact" activeClassName='is-active'>Contact</NavLink>
+        <h1>Expensify App</h1>
+        <NavLink to="/" exact={true} activeClassName="is-active">Dashboard</NavLink>
+        <NavLink to="/create" activeClassName="is-active">Create expense</NavLink>
+        <NavLink to="/help" activeClassName="is-active">Help</NavLink>
     </header>
 );
 

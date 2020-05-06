@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import AppRouter from './routers/AppRouter';
-<<<<<<< HEAD
 import configureStore from './store/configureStore';
 import { addExpense, editExpense, removeExpense } from './actions/expenses';
 import { setTextFilter } from './actions/filters';
@@ -29,9 +28,4 @@ store.dispatch(addExpense({
 
 store.dispatch(setTextFilter('gas'));
 
-=======
-import 'normalize.css/normalize.css';
-import './styles/styles.scss';
-
->>>>>>> d24604c3df50f3bbe23d64f1d743d82d44bb48ca
 ReactDOM.render(<AppRouter />, document.getElementById('app'));

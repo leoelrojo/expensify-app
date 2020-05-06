@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "name": "expensify-app",
-=======
-  "name": "portfolio-app",
->>>>>>> d24604c3df50f3bbe23d64f1d743d82d44bb48ca
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/leoelrojo/indecision-app.git",
@@ -30,10 +26,7 @@
     "react-dom": "16.0.0",
     "react-modal": "2.2.2",
     "react-router-dom": "4.2.2",
-<<<<<<< HEAD
     "redux": "3.7.2",
-=======
->>>>>>> d24604c3df50f3bbe23d64f1d743d82d44bb48ca
     "sass-loader": "6.0.6",
     "style-loader": "0.18.2",
     "uuid": "3.1.0",

@@ -6,6 +6,7 @@ import configureStore from './store/configureStore';
 import moment from 'moment';
 import localization from 'moment/locale/fr';
 import numeral from 'numeral';
+import 'numeral/locales/fr';
 import { addExpense, editExpense, removeExpense } from './actions/expenses';
 import { setTextFilter, sortByAmount } from './actions/filters';
 import getVisibleExpenses from './selectors/expenses';
@@ -15,7 +16,7 @@ import 'react-dates/lib/css/_datepicker.css';
 
 moment.updateLocale('fr', localization);
 
-//numeral.locale('fr');
+numeral.locale('fr');
 
 const store = configureStore();
 

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render statement with no expenses at all 1`] = `
+<div>
+  No expenses
+</div>
+`;
+
+exports[`should render statement with only 1 expense (singular) 1`] = `
+<div>
+  undefined expense for 0.00$
+</div>
+`;
+
+exports[`should render statement with the sum of expenses (plural) 1`] = `
+<div>
+  3 expenses for 0.00$
+</div>
+`;

@@ -8,12 +8,12 @@ exports[`should render statement with no expenses at all 1`] = `
 
 exports[`should render statement with only 1 expense (singular) 1`] = `
 <div>
-  undefined expense for 0.00$
+  1 expense for 0.54$
 </div>
 `;
 
 exports[`should render statement with the sum of expenses (plural) 1`] = `
 <div>
-  3 expenses for 0.00$
+  3 expenses for 18.53$
 </div>
 `;

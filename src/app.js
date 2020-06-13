@@ -7,9 +7,7 @@ import moment from 'moment';
 import localization from 'moment/locale/fr';
 import numeral from 'numeral';
 import 'numeral/locales/fr';
-import { addExpense, editExpense, removeExpense } from './actions/expenses';
-import { setTextFilter, sortByAmount } from './actions/filters';
-import getVisibleExpenses from './selectors/expenses';
+import { startSetExpenses } from './actions/expenses';
 import 'normalize.css/normalize.css';
 import './styles/styles.scss';
 import 'react-dates/lib/css/_datepicker.css';
@@ -27,4 +25,8 @@ const jsx = (
     </Provider>
 );
 
-ReactDOM.render(jsx, document.getElementById('app'));
+ReactDOM.render(<p>Loading...</p>, document.getElementById('app'));
+
+store.dispatch(startSetExpenses()).then(() => {
+    ReactDOM.render(jsx, document.getElementById('app'));
+});

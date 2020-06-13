@@ -26,3 +26,6 @@ hs_err_pid*
 node_modules
 
 public/dist
+
+.env.test
+.env.development

@@ -1,19 +1,93 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should render statement with no expenses at all 1`] = `
-<div>
-  No expenses
+<div
+  className="page-header"
+>
+  <div
+    className="content-container"
+  >
+    <h1
+      className="page-header__title page-header__title--message"
+    >
+      No expenses
+    </h1>
+    <div
+      className="page-header__actions"
+    >
+      <[object Object]
+        className="button"
+        to="/create"
+      >
+        Add Expense
+      </[object Object]>
+    </div>
+  </div>
 </div>
 `;
 
 exports[`should render statement with only 1 expense (singular) 1`] = `
-<div>
-  1 expense for 0.54$
+<div
+  className="page-header"
+>
+  <div
+    className="content-container"
+  >
+    <h1
+      className="page-header__title"
+    >
+      <span>
+        1
+      </span>
+       expense for
+      <span>
+         
+        0.54$
+      </span>
+    </h1>
+    <div
+      className="page-header__actions"
+    >
+      <[object Object]
+        className="button"
+        to="/create"
+      >
+        Add Expense
+      </[object Object]>
+    </div>
+  </div>
 </div>
 `;
 
 exports[`should render statement with the sum of expenses (plural) 1`] = `
-<div>
-  3 expenses for 18.53$
+<div
+  className="page-header"
+>
+  <div
+    className="content-container"
+  >
+    <h1
+      className="page-header__title"
+    >
+      <span>
+        3
+      </span>
+       expenses for
+      <span>
+         
+        18.53$
+      </span>
+    </h1>
+    <div
+      className="page-header__actions"
+    >
+      <[object Object]
+        className="button"
+        to="/create"
+      >
+        Add Expense
+      </[object Object]>
+    </div>
+  </div>
 </div>
 `;
